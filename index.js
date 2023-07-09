@@ -2,6 +2,14 @@
 
 const { ApolloServer, gql } = require("apollo-server");
 
+
+//saclar types
+//String
+//integer
+//float
+//boolean
+
+
 const typeDefs = gql`
     type Query { 
         hello: String
